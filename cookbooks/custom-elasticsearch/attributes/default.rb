@@ -9,7 +9,7 @@ default['elasticsearch'].tap do |elasticsearch|
 
   # Run Elasticsearch on a solo or app_master instance
   # Not recommended for production environments
-  elasticsearch['is_elasticsearch_instance'] = ( ['solo', 'app_master'].include?(node.dna['instance_role']) )
+  #elasticsearch['is_elasticsearch_instance'] = ( ['solo', 'app_master'].include?(node.dna['instance_role']) )
 
   # Elasticsearch version to install
   # Go to https://www.elastic.co/downloads/past-releases to see the available version
