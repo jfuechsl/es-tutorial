@@ -17,6 +17,7 @@ gem 'pg'
 gem 'sqlite3'
 # Full-text search
 gem 'elasticsearch-model', '~> 6.0'
+gem 'elasticsearch-rails', '~> 6.0'
 
 gem 'unicorn'
 

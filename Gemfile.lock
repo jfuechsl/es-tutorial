@@ -53,6 +53,7 @@ GEM
       activesupport (> 3)
       elasticsearch (> 1)
       hashie
+    elasticsearch-rails (6.0.0)
     elasticsearch-transport (6.2.0)
       faraday
       multi_json
@@ -187,6 +188,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   elasticsearch-model (~> 6.0)
+  elasticsearch-rails (~> 6.0)
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
