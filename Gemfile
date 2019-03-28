@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Rails Framework
-gem 'rails', '4.2.0'
+gem 'rails', '~> 4.2'
 
 # Static Assets & Front End
 gem 'slim-rails'
