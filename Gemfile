@@ -12,11 +12,13 @@ gem 'jquery-ui-rails'
 gem 'turbolinks'
 
 # Database & Storage
-gem 'sqlite3'
+gem 'mysql2'
 gem 'pg'
+gem 'sqlite3'
 # Full-text search
 gem 'elasticsearch-model', '~> 6.0'
 
+gem 'unicorn'
 
 # Utilities
 gem 'jbuilder', '~> 2.0'
