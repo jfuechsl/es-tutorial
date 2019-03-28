@@ -1,2 +1,2 @@
----
-precompile_assets: false
+defaults:
+  precompile_assets: false
