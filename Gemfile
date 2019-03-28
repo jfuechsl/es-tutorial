@@ -13,8 +13,9 @@ gem 'turbolinks'
 
 # Database & Storage
 gem 'sqlite3'
+gem 'pg'
 # Full-text search
-gem 'elasticsearch-model'
+gem 'elasticsearch-model', '~> 6.0'
 
 
 # Utilities
